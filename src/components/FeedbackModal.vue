@@ -128,7 +128,7 @@ async function submit() {
 
     emit('update:modelValue', false);
   } catch (e) {
-    submitError.value = 'Не удалось отправить отзыв. Попробуйте позже.';
+    submitError.value = 'Не удалось отправить отзыв. попробуйте позже.';
     console.error(e);
   } finally {
     loading.value = false;
